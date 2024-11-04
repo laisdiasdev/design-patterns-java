@@ -14,6 +14,7 @@ public class TestaTemplateMethod {
 		contaPoupanca.sacar(10);
 		
 		System.out.println("Saldo da Conta Corrente: " + contaCorrente.getSaldo());
+		System.out.println("Saldo da Conta Poupança: " + contaPoupanca.getSaldo());
 	}
 
 }
