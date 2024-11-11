@@ -1,6 +1,6 @@
 package strategy;
 
-public class PagamentoPix {
+public class PagamentoPix implements FormaDePagamento {
 	String chavePix;
 	
 	public PagamentoPix(String chavePix) {
