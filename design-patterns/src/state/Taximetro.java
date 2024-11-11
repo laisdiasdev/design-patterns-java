@@ -11,7 +11,7 @@ public class Taximetro {
 		this.bandeira = bandeira;
 	}
 	
-	public double calculaValorDaCrrida(double tempo, double distancia) {
+	public double calculaValorDaCorrida(double tempo, double distancia) {
 		return this.bandeira.calculaValorDaCorrida(tempo, distancia);
 	}
 }
